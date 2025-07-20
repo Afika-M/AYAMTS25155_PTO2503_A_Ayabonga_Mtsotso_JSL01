@@ -52,10 +52,10 @@ body {
 #sidebar button {
   color: #FFFFFF;
   background-color: #635FC7;
-  padding: 12px 20px;
+  padding: 0.75em 1.25em;
   margin: 2em 2.125em 2.125rem 0em;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.9375em;
   border: none;
   border-radius: 0em 3.125em 3.125em 0em; 
   cursor: pointer;
@@ -68,11 +68,11 @@ body {
 
 /* Main Content */
 main {
-  padding: 20px;
+  padding: 1.25em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly; 
-  gap: 20px;
+  gap: 1.25em;
 }
 
 /* Header */
@@ -81,7 +81,7 @@ header {
   padding: 0;
   display: flex;
   background-color: #FFFFFF;
-  border-bottom: 1px solid #E4EBFA;
+  border-bottom: 0.0625em solid #E4EBFA;
   height: 6em;
   overflow: hidden;
 }
@@ -100,14 +100,14 @@ header {
 .column-header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 15px;
+  gap: 0.5em;
+  margin-bottom: 0.9375em;
 }
 
 .column-header span {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 0.9375em;
+  height: 0.9375em;
   border-radius: 50%;
 }
 main > div:nth-child(1) .column-header span {
@@ -125,8 +125,8 @@ main > div:nth-child(3) .column-header span {
 
 .column-header h4 {
   color: #828FA3;
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-size: 0.75em;
+  letter-spacing: 0.125em;
 }
 
 /* Tasks */
@@ -139,18 +139,18 @@ main > div:nth-child(3) .column-header span {
 
 .task-card {
   background-color: #FFFFFF;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1);
+  padding: 0.9375em;
+  border-radius: 0.5em;
+  box-shadow: 0em 0.25em 0.375em rgba(54, 78, 126, 0.1);
   cursor: grab;
-  font-size: 15px;
+  font-size: 0.9375em;
   font-weight: 700;;
   color: #000112;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .task-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0px 6px 12px rgba(54, 78, 126, 0.15);
+  transform: translateY(-0.1875em);
+  box-shadow: 0em 0.375em 0.75em rgba(54, 78, 126, 0.15);
 }
 
 /* Responsive Design */
