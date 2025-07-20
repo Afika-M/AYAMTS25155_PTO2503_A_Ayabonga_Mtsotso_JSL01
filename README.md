@@ -1,35 +1,67 @@
-# JSL01 Challenge Brief: Kanban Board UI Implementation
+# Kanban Board
 
-## Figma Design Link
+A simple, responsive Kanban board built with **HTML** and **CSS**. The board allows you to visualize tasks across three columns: **TODO**, **DOING**, and **DONE**. Designed with a clean, modern layout and optimized for desktop and mobile screens.
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
+---
 
-## Overview
+## 📂 Project Structure
 
-This project involves developing a **visually accurate and fully responsive Kanban board** that aligns with the provided **Figma design**. The board should be structured into multiple columns and include task cards, a static side panel, and a well-defined theme to ensure a **professional and polished user experience.**
+kanban-board/
+├── index.html # Main HTML file
+├── styles.css # Stylesheet
+├── assets/ # Folder for images (e.g., logo)
+└── README.md # Project documentation
 
-## Before You Begin
+---
 
-**Check the project user stories in your student dashboard** before you start building.
+## 🖥️ Features
 
-## Key Objectives
+✅ Responsive layout (3 columns on desktop, stacked vertically on mobile)  
+✅ Modern UI with clean typography and hover effects  
+✅ Sidebar with logo and board navigation    
+✅ Mobile-friendly design with hidden sidebar  
 
-- Implement a **favicon and page title** that match the application’s theme for a professional look.
-- Create a **Kanban board with multiple columns** (e.g., "To Do", "In Progress", "Done") that **exactly replicates** the Figma design layout.
-- Ensure the **board’s layout, colours, typography, and spacing** strictly follow the Figma specifications for visual consistency.
-- Develop a **fully responsive** board that adapts seamlessly to **both laptops and mobile devices**, mirroring the Figma design’s responsive behavior.
-- Display **tasks as individual cards** within their respective columns, ensuring their design (borders, shadows, padding) follows the Figma guidelines for clarity and appeal.
-- Include **titles on all task cards** to provide clear task descriptions.
-- Implement a **static side panel with** the correct **icons, text, and branding elements** as per the Figma layout for a structured and professional appearance.
+---
 
-## 📱 Mobile View
+## 📱 Responsive Design
 
-![Mobile UI](./explainer-images/JSL01_Mobile.png)
+- **Desktop**: Three side-by-side columns for easy task management.  
+- **Mobile**: Columns stack vertically, and the sidebar is hidden for a cleaner view.  
 
-## 💻 Desktop View
+---
 
-![Desktop UI](./explainer-images/JSL01-Desktop.png)
+## 🛠️ Technologies Used
 
-## Expected Outcome
+- ✅ HTML5  
+- ✅ CSS3 (Grid + Flexbox)  
+- ✅ Google Fonts: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
 
-The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.
+---
+
+## 🚀 Getting Started
+
+To run this project locally:  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/kanban-board.git
+
+
+2. **Navigate into the project folder**
+````bash
+cd kanban-board
+````
+
+3. Open index.html in your web browser.You can simply double-click index.html or serve it using a local web server.
+
+
+
+## 📸 Screenshots
+
+### 💻 Desktop View
+![Desktop View](explainer-images/JSL01-Desktop.png)
+### 📱 Mobile View
+![Mobile View](explainer-images/JSL01_Mobile.png)
+
+
+
